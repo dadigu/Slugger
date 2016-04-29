@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+(function($) {
 	$.fn.slugger = function(options) {
 		var $target = this;
 		var $source = ((options.source) ? $(options.source) : false);
@@ -48,4 +48,4 @@ jQuery(document).ready(function($) {
 			$target.val(slug);
 		});
 	};
-});
+})(jQuery);
