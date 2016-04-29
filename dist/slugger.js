@@ -1,4 +1,4 @@
-(function($) {
+jQuery(document).ready(function($) {
 	$.fn.slugger = function(options) {
 		var $target = this;
 		var $source = ((options.source) ? $(options.source) : false);
@@ -48,4 +48,4 @@
 			$target.val(slug);
 		});
 	};
-})(jQuery);
+});
