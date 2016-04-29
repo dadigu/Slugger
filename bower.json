@@ -1,0 +1,26 @@
+{
+  "name": "slugger",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dadigu/slugger",
+  "authors": [
+    "Daxi <dgudjonsson@gmail.com>"
+  ],
+  "description": "a jQuery plugin to create slugs from inpu fields",
+  "main": "dist/slugger.js",
+  "keywords": [
+    "jquery",
+    "slug",
+    "slugify"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.1"
+  }
+}
