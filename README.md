@@ -1,5 +1,5 @@
 # jQuery Slugger
-Created by Daxi
+Created by Daxi (<dgudjonsson@gmail.com>)
 
 ## About this plugin
 This is a simple jQuery plugin to slugify an input field as you type with the option to connect it to a fx. title input then the slug will be automatically generated as you type in a title.
@@ -48,4 +48,3 @@ You can set the Slug input to readonly if you have a source specified
 		source: "#myTitle",
 		readonly: true
 	})
-	
