@@ -6,7 +6,20 @@ This is a simple jQuery plugin to slugify an input field as you type with the op
 
 Currently it will remove all special characters but replace Icelandic and Danish specific characters with alphanumeric characters.
 
-### Example
+<hr>
+
+### Installation
+You can either download the zip and extract in your project or grab it with bower
+
+	bower install slugger
+
+Then you can include it in your project like so
+
+	<script src="path/to/bower_components/slugger/dist/slugger.min.js"></script>
+
+This plugin needs jQuery installed
+
+### Examples
 
 Let's say you have a form like this
 
