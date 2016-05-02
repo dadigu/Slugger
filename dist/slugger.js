@@ -6,8 +6,13 @@
 		var $suffix = ((options.suffix) ? "-" + options.suffix : "");
 		var $readonly = options.readonly || false;
 
+		var disableSource = null;
+
 		if ($source && $readonly === true) {
 			$target.attr('readonly', true);
+		}
+		if($target.val()){
+			disableSource = true;
 		}
 
 		var createSlug = function(str) {
@@ -39,11 +44,18 @@
 		};
 		if ($source) {
 			$source.on('keyup change', function() {
+				if($target.val() && disableSource === true){
+					return;	
+				}
+				disableSource = false;
 				var slug = createSlug($prefix + $(this).val() + $suffix);
 				$target.val(slug);
 			});
 		}
 		$target.on('keyup change', function() {
+			if(disableSource === false){
+				disableSource = true;
+			}
 			var slug = createSlug($(this).val());
 			$target.val(slug);
 		});

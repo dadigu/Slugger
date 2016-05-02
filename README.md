@@ -9,15 +9,18 @@ Currently it will remove all special characters but replace Icelandic and Danish
 <hr>
 
 ### Installation
+This plugin requires jQuery as dependency.
+
 You can either download the zip and extract in your project or grab it with bower
 
 	bower install slugger
 
 Then you can include it in your project like so
 
-	<script src="path/to/bower_components/slugger/dist/slugger.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript"  src="path/to/bower_components/slugger/dist/slugger.min.js"></script>
 
-This plugin needs jQuery installed
+This plugin needs jQuery installed2
 
 ### Examples
 
