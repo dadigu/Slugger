@@ -4,8 +4,6 @@ Created by Daxi (<dgudjonsson@gmail.com>)
 ## About this plugin
 This is a simple jQuery plugin to slugify an input field as you type with the option to connect it to a fx. title input then the slug will be automatically generated as you type in a title.
 
-Currently it will remove all special characters but replace Icelandic and Danish specific characters with alphanumeric characters.
-
 <hr>
 
 ### Installation
