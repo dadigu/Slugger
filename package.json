@@ -1,0 +1,13 @@
+{
+  "name": "slugger",
+  "version": "1.0.0",
+  "description": "A simple jquery slug generetor",
+  "author": {
+    "name": "Daxi Gudjónsson",
+    "email": "dgudjonsson@gmail.com"
+  },
+  "keywords": [
+    "slug",
+    "jquery",
+  ]
+}
