@@ -13,6 +13,10 @@ You can either download the zip and extract in your project or grab it with bowe
 
 	bower install slugger
 
+or
+
+	npm install jslugger
+
 Then you can include it in your project like so
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>

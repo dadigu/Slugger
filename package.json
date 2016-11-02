@@ -1,5 +1,5 @@
 {
-  "name": "slugger",
+  "name": "jslugger",
   "version": "1.0.0",
   "description": "A simple jquery slug generetor",
   "author": {
@@ -8,6 +8,6 @@
   },
   "keywords": [
     "slug",
-    "jquery",
+    "jquery"
   ]
 }
